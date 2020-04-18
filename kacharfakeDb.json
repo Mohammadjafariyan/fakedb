@@ -1,0 +1,28 @@
+{
+  "$id": "1",
+  "type": 2,
+  "single": null,
+  "list": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "id": '3',
+        "name": "car (1).jpg"
+      }, {
+        "$id": "4",
+        "id": '4',
+        "name": "car (2).jpg"
+      }, {
+        "$id": "5",
+        "id": '5',
+        "name": "car (3).jpg"
+      }, {
+        "$id": "6",
+        "id": '6',
+        "name": "car (4).jpg"
+      }
+    ]
+  },
+  "message": null
+}
