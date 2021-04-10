@@ -29,5 +29,39 @@
      },
      "message": null
    }
+ ],
+ "m-first-day":[
+   
+{
+
+  "Title":"هزینه سرویس دیتا",
+  "CostGroups":
+  [
+      {
+          "Title":"اینترنت شهری مشتری عادی",
+          "Conditions":[
+              {"NetType":1,"CompareType":2,"ProductType":2},
+              {"NetType":2,"CompareType":3,"ProductType":1},
+              {"NetType":1,"CompareType":2,"ProductType":3}
+          ],
+          "Cost":{
+              "Formula":"22*54*10000",
+              "Cycle":2
+          }
+      },
+      {
+          "Title":"اینترنت بین شهری مشتری عادی",
+          "Conditions":[
+              {"NetType":2,"CompareType":1,"ProductType":2},
+              {"NetType":3,"CompareType":3,"ProductType":1},
+              {"NetType":1,"CompareType":2,"ProductType":3}
+          ],
+          "Cost":{
+              "Formula":"1/2*550*120000",
+              "Cycle":1
+          }
+      }
+  ]
+}
  ]
 }
