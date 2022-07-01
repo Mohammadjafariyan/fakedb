@@ -2,44 +2,20 @@
   "cars": [
     {
       "id": 1,
-      "title": "پراید"
+      "text": "Option 1"
     },
     {
       "id": 2,
-      "title": "پژو"
+      "text": "Option 2",
+      "selected": true
     },
     {
       "id": 3,
-      "title": "النترا"
-    },
-    {
-      "id": 4,
-      "title": "بی ام و"
+      "text": "Option 3",
+      "disabled": true
     }
   ],
-  "battery": [
-    {
-      "id": 1,
-      "title": "60 آمپر صبا"
-    },
-    {
-      "id": 2,
-      "title": "100 آمپر"
-    },
-    {
-      "id": 3,
-      "title": "120 آمپر"
-    }, {
-      "id": 4,
-      "title": "95 آمپر اتمیک"
-    },
-    {
-      "id": 5,
-      "title": "75 آمپر"
-    },
-    {
-      "id": 6,
-      "title": "70 آمپر"
-    }
-  ]
+  "pagination": {
+    "more": true
+  }
 }
